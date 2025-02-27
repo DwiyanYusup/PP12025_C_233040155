@@ -1,4 +1,4 @@
-package P1;
+package P2;
 
 public class Node {
     private int nilai;
