@@ -11,9 +11,9 @@ public class GraphMain {
         graph.addVertex('E');
 
         graph.addEdge(0, 1);
-        graph.addEdge(0, 2);
-        graph.addEdge(1, 3);
-        graph.addEdge(1, 4);
+        graph.addEdge(1, 2);
+        graph.addEdge(0, 3);
+        graph.addEdge(3, 4);
         graph.adjacencyMatrix();
         System.out.println();
         main2(args);
