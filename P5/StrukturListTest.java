@@ -1,14 +1,14 @@
-package P3;
+package P5;
 
-public class ListTest {
+public class StrukturListTest {
     public static void main(String[] args) {
         StrukturList list = new StrukturList();
+    
+        list.addHead(2);
+        list.addHead(9);
         list.addHead(7);
-        list.addHead(5);
-        list.addHead(4);
-        list.addHead(1);
 
-        System.out.println("Elemen : ");
+        System.out.print("Element List Awal: ");
         list.displayElement();
     }
 }
